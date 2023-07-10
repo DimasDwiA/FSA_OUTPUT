@@ -24,20 +24,20 @@ FSA OUTPUT (Finite State Automaton Output) is a project that was implemented as 
 * Demonstration of Ability: This application can also be used as a demonstration of your ability to implement FSA concepts in real projects. You can use this application to express your knowledge and skills in system design, programming and user interface development.
 ## User Interface Graphical Display
 ### For Display Welcome Page
-![For Display Welcome Page](FSAOUTPUT/assets/1.png)
+![For Display Welcome Page](image/1.png)
 ### For Display Input Money Page
-![For Display input money Page](assets/2.png)
+![For Display input money Page](image/2.png)
 ### For Display Chosse Slice Page
-![For Display slice Page](assets/3.png)
+![For Display slice Page](image/3.png)
 ### For Display Flavor Page
-![For Display flavor Page](assets/4.png)
+![For Display flavor Page](image/4.png)
 ### For Display Order Summary Page
-![For Display order summary Page](assets/5.png)
+![For Display order summary Page](image/5.png)
 ### For Display Cancel Page
-![For Display cancel Page](assets/6.png)
+![For Display cancel Page](image/6.png)
 ### For Display Waiting Order Page
-![For Display waiting order Page](assets/7.png)
+![For Display waiting order Page](image/7.png)
 ### For Display Diagram Page
-![For Display diagram Page](assets/8.png)
+![For Display diagram Page](image/8.png)
 ### For Display tabel Page
-![For Display tabel Page](assets/9.png)
+![For Display tabel Page](image/9.png)
