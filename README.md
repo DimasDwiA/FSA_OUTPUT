@@ -27,7 +27,7 @@ FSA OUTPUT (Finite State Automaton Output) is a project that was implemented as 
 ![For Display Welcome Page](image/1.png)
 ### For Display Input Money Page
 ![For Display input money Page](image/2.png)
-### For Display Chosse Slice Page
+### For Display Choose Slice Page
 ![For Display slice Page](image/3.png)
 ### For Display Flavor Page
 ![For Display flavor Page](image/4.png)
