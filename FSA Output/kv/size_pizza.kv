@@ -1,0 +1,65 @@
+<Size>:
+    MDFloatLayout:
+        md_bg_color: [0, 0, 0, 1]
+    MDLabel:
+        text: "Choose your favorite pizza slice"
+        halign: "center"
+        pos_hint: {'center_x': 0.5,'center_y': 0.85}
+        font_size: "25sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    Image:
+        source: "assets/Gambar/empat.png"
+        size_hint: .38, .38
+        pos_hint: {'center_x': 0.2,'center_y': 0.5}
+    Image:
+        source: "assets/Gambar/enam.png"
+        size_hint: .35, .35
+        pos_hint: {'center_x': 0.5,'center_y': 0.5}
+    Image:
+        source: "assets/Gambar/delapan.png"
+        size_hint: .38, .38
+        pos_hint: {'center_x': 0.8,'center_y': 0.5}
+    MDFillRoundFlatButton:
+        text: "4 SLICE"
+        font_name: "Poppins-SemiBold"
+        pos_hint: {'center_x': 0.2,'center_y': 0.225}
+        size_hint: .15, .05
+        md_bg_color: [1, 0, 0, 1]
+        on_release: 
+            root.on_size_button_click("4 SCLICE")
+            root.on_order_button_click("21364474")
+    MDFillRoundFlatButton:
+        text: "6 SLICE"
+        font_name: "Poppins-SemiBold"
+        pos_hint: {'center_x': 0.5,'center_y': 0.225}
+        size_hint: .15, .05
+        md_bg_color: [1, 0, 0, 1]
+        on_release: 
+            root.on_size_button_click("6 SLICE")
+            root.on_order_button_click("21366674")
+    MDLabel:
+        text: root.label_text
+        halign: "center"
+        pos_hint: {'center_x': 0.5,'center_y': 0.77}
+        font_size: "25sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDFillRoundFlatButton:
+        text: "8 SLICE"
+        font_name: "Poppins-SemiBold"
+        pos_hint: {'center_x': 0.8,'center_y': 0.225}
+        size_hint: .15, .05
+        md_bg_color: [1, 0, 0, 1]
+        on_release:
+            root.on_size_button_click("8 SLICE")
+            root.on_order_button_click("21368874")
+    MDLabel:
+        text: "We offer pizzas of the same size, but the difference lies in the number of slices. So, even if the size is the same, you can choose a pizza with more slices or fewer slices, according to your taste and needs."
+        halign: "center"
+        pos_hint: {'center_x': 0.5,'center_y': 0.1}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBoldItalic"
+        size_hint_x: .7
+    
