@@ -1,0 +1,163 @@
+<Flavor>:
+    MDFloatLayout:
+        md_bg_color: [0, 0, 0, 1]
+    MDLabel:
+        text: "Enjoy the delicious sensation of pizza with our unforgettable favorite flavor! we have a wide selection of pizza that tempts your tongue to be enjoyed, choose your favorite pizza now!!!"
+        halign: "center"
+        pos_hint: {'center_x': 0.5,'center_y': 0.85}
+        font_size: "17sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+        size_hint_x: .85
+    Image:
+        source: "assets/Gambar/ham_cheese.png"
+        size_hint: .2, .2
+        pos_hint: {'center_x': 0.2,'center_y': 0.65}
+    Image:
+        source: "assets/Gambar/hawaiian.png"
+        size_hint: .2, .2
+        pos_hint: {'center_x': 0.5,'center_y': 0.65}
+    Image:
+        source: "assets/Gambar/meatlover.png"
+        size_hint: .2, .2
+        pos_hint: {'center_x': 0.8,'center_y': 0.65}
+    Image:
+        source: "assets/Gambar/pepperoni.png"
+        size_hint: .2, .2
+        pos_hint: {'center_x': 0.35,'center_y': 0.32}
+    Image:
+        source: "assets/Gambar/supreme.png"
+        size_hint: .2, .2
+        pos_hint: {'center_x': 0.65,'center_y': 0.32}
+    MDLabel:
+        text: "Ham Cheese"
+        halign: "center"
+        pos_hint: {'center_x': 0.2,'center_y': 0.56}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDLabel:
+        text: "150000"
+        halign: "center"
+        pos_hint: {'center_x': 0.2,'center_y': 0.53}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDFillRoundFlatButton:
+        text: "S E L E C T"
+        font_name: "Poppins-SemiBold"
+        font_size: "12sp"
+        pos_hint: {'center_x': 0.2,'center_y': 0.48}
+        size_hint: .03, .03
+        md_bg_color: [1, 0, 0, 1]
+        on_release: 
+            root.on_flavor_button_click("Ham Cheese")
+            root.on_pricer_button_click("150000")
+            root.on_tax_button_click("15000")
+            root.on_time_button_click("30 Minutes")
+    MDLabel:
+        text: "Hawaiian"
+        halign: "center"
+        pos_hint: {'center_x': 0.5,'center_y': 0.56}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDLabel:
+        text: "100000"
+        halign: "center"
+        pos_hint: {'center_x': 0.5,'center_y': 0.53}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDFillRoundFlatButton:
+        text: "S E L E C T"
+        font_name: "Poppins-SemiBold"
+        font_size: "12sp"
+        pos_hint: {'center_x': 0.5,'center_y': 0.48}
+        size_hint: .03, .03
+        md_bg_color: [1, 0, 0, 1]
+        on_release:
+            root.on_flavor_button_click("Hawaiian")
+            root.on_pricer_button_click("100000")
+            root.on_tax_button_click("10000")
+            root.on_time_button_click("25 Minutes")
+    MDLabel:
+        text: "Meatlover"
+        halign: "center"
+        pos_hint: {'center_x': 0.8,'center_y': 0.56}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDLabel:
+        text: "100000"
+        halign: "center"
+        pos_hint: {'center_x': 0.8,'center_y': 0.53}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDFillRoundFlatButton:
+        text: "S E L E C T"
+        font_name: "Poppins-SemiBold"
+        font_size: "12sp"
+        pos_hint: {'center_x': 0.8,'center_y': 0.48}
+        size_hint: .03, .03
+        md_bg_color: [1, 0, 0, 1]
+        on_release:
+            root.on_flavor_button_click("Meatlover")
+            root.on_pricer_button_click("100000")
+            root.on_tax_button_click("10000")
+            root.on_time_button_click("30 Minutes")
+    
+    MDLabel:
+        text: "Pepperoni"
+        halign: "center"
+        pos_hint: {'center_x': 0.35,'center_y': 0.22}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDLabel:
+        text: "50000"
+        halign: "center"
+        pos_hint: {'center_x': 0.35,'center_y': 0.18}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDFillRoundFlatButton:
+        text: "S E L E C T"
+        font_name: "Poppins-SemiBold"
+        font_size: "12sp"
+        pos_hint: {'center_x': 0.35,'center_y': 0.13}
+        size_hint: .03, .03
+        md_bg_color: [1, 0, 0, 1]
+        on_release:
+            root.on_flavor_button_click("Pepperoni")
+            root.on_pricer_button_click("50000")
+            root.on_tax_button_click("5000")
+            root.on_time_button_click("20 Minutes")
+    MDLabel:
+        text: "Supreme"
+        halign: "center"
+        pos_hint: {'center_x': 0.65,'center_y': 0.22}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDLabel:
+        text: "150000"
+        halign: "center"
+        pos_hint: {'center_x': 0.65,'center_y': 0.18}
+        font_size: "12sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    MDFillRoundFlatButton:
+        text: "S E L E C T"
+        font_name: "Poppins-SemiBold"
+        font_size: "12sp"
+        pos_hint: {'center_x': 0.65,'center_y': 0.13}
+        size_hint: .03, .03
+        md_bg_color: [1, 0, 0, 1]
+        on_release:
+            root.on_flavor_button_click("Supreme")
+            root.on_pricer_button_click("150000")
+            root.on_tax_button_click("15000")
+            root.on_time_button_click("30 Minutes")
+        

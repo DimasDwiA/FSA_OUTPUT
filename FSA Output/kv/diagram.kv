@@ -1,0 +1,22 @@
+<Diagram>:
+    MDFloatLayout:
+        md_bg_color: [0, 0, 0, 1]
+    MDLabel:
+        text: "Diagram Transisi"
+        halign: "center"
+        pos_hint: {'center_x': 0.5,'center_y': 0.9}
+        font_size: "25sp"
+        color: rgba(252, 250, 250)
+        font_name: "Poppins-SemiBold"
+    Image:
+        source: "assets/Gambar/diagram.jpg"
+        size_hint: .9, .9
+        pos_hint: {'center_x': 0.5,'center_y': 0.5}
+    MDFillRoundFlatButton:
+        text: "Notasi & Tabel"
+        font_name: "Poppins-SemiBold"
+        pos_hint: {'center_x': 0.8,'center_y': 0.07}
+        size_hint: .15, .05
+        md_bg_color: [1, 0, 0, 1]
+        on_release:
+            root.manager.current = "diagram2"
